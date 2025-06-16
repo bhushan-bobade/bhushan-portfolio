@@ -6,7 +6,7 @@
 //   return twMerge(clsx(inputs))
 // }
 
-import { ClassValue } from "clsx"
+import { type ClassValue } from "clsx"
 import { clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 
