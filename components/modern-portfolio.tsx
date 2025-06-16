@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, Calendar, Link } from "lucide-react"
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown } from "lucide-react"
 import { inter } from "@/app/fonts"
 import { AnimatedAvatar } from "./animated-avatar"
 
@@ -131,7 +131,7 @@ export function ModernPortfolio() {
           </div>
 
           <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            <span className="text-white font-sans">Hi, I'm </span>
+            <span className="text-white font-sans">Hi, I&apos;m </span>
             <span
               className={`${inter.className} text-4xl md:text-6xl bg-gradient-to-r from-emerald-400 via-blue-400 to-purple-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 inline-block font-bold tracking-tight`}
             >
@@ -180,15 +180,15 @@ export function ModernPortfolio() {
             <h3 className="text-2xl font-semibold text-white mb-4 font-sans">Full Stack Developer</h3>
             <div className="space-y-6">
               <p className="text-white/80 leading-relaxed font-sans text-lg">
-                Hi! I'm Bhushan Bobade, a passionate Full Stack Developer with a proven ability to craft innovative and
+                Hi! I&apos;m Bhushan Bobade, a passionate Full Stack Developer with a proven ability to craft innovative and
                 efficient solutions in web development. As a recent graduate in Computer Science and Engineering from
                 G.H. Raisoni College of Engineering and Management, Pune, I bring a blend of academic excellence and
                 hands-on experience to every project.
               </p>
               <p className="text-white/80 leading-relaxed font-sans text-lg">
-                My journey in tech began with a strong foundation in Computer Science and Engineering, and I've since
-                expanded my expertise through hands-on experience in internships and personal projects. I'm particularly
-                enthusiastic about technologies like React, Node.js, and Java, and I'm always eager to learn and adapt
+                My journey in tech began with a strong foundation in Computer Science and Engineering, and I&apos;ve since
+                expanded my expertise through hands-on experience in internships and personal projects. I&apos;m particularly
+                enthusiastic about technologies like React, Node.js, and Java, and I&apos;m always eager to learn and adapt
                 to new tools and frameworks.
               </p>
             </div>
